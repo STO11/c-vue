@@ -6,6 +6,12 @@ A CLI for c-vue.
 
 Check out the documentation at https://github.com/infinitered/gluegun/tree/master/docs.
 
+USE: 
+<code name="banner"> 
+    ...
+</code>
+
+
 ## Publishing to NPM
 
 To package your CLI up for NPM, do this:
