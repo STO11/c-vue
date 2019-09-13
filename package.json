@@ -1,0 +1,47 @@
+{
+  "name": "c-vue",
+  "version": "0.0.1",
+  "description": "c-vue CLI",
+  "private": true,
+  "bin": {
+    "c-vue": "bin/c-vue"
+  },
+  "scripts": {
+    "format": "prettier --write **/*.{js,json} && standard --fix",
+    "lint": "standard",
+    "test": "jest",
+    "watch": "jest --watch",
+    "snapupdate": "jest --updateSnapshot",
+    "coverage": "jest --coverage"
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "readme.md",
+    "docs",
+    "bin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "gluegun": "^2.1.0",
+    "ncp": "^2.0.0",
+    "web-html-stream": "^2.0.11"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "prettier": "^1.12.1",
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}

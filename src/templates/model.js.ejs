@@ -1,0 +1,19 @@
+<template>
+
+  <%- props.html %>
+
+</template>
+
+<script>
+    export default {
+        name: '<%= props.name %>', 
+        mounted() {
+            console.log('Component mounted <%= props.name %>.')
+            //console.log(axios);
+        }
+    }
+</script>
+
+<style lang="scss" scoped>
+
+</style>
